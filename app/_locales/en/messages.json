@@ -230,6 +230,9 @@
   "connecting": {
     "message": "Connecting..."
   },
+  "connectingTo": {
+    "message": "Connecting to $1"
+  },
   "connectingToKovan": {
     "message": "Connecting to Kovan Test Network"
   },
