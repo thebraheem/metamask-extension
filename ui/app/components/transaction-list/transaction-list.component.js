@@ -40,7 +40,7 @@ export default class TransactionList extends PureComponent {
   shouldShowRetry = transaction => {
     const { transactionToRetry } = this.props
     const { id, submittedTime } = transaction
-    return id === transactionToRetry.id && Date.now() - submittedTime > 30000
+    return id === transactionToRetry.id && Date.now() - submittedTime > 3000
   }
 
   renderTransactions () {
